@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>University</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="eduford_img/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+
+       <h1>Our Certificate & Online Programs For 2026</h1>
+    
+    </section>
+
+<!-----        blog page              -->
+
+<section class="blog-content">
+    <div class="row">
+        <div class="blog-left">
+               <img src="eduford_img/certificate.jpg">
+               <h2>Our certificate & Online pgorams for 2021</h2>
+               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, eaque numquam odio fugiat ut sit. Nam nisi ipsam ipsum cupiditate corporis minus, accusantium delectus, quos error sunt, cumque fugiat totam.</p>
+               <br>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore aut, mollitia suscipit debitis culpa doloribus, omnis cupiditate hic nemo, nam velit quos eveniet doloremque facilis! Ut odio qui quia deleniti Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam consequuntur quisquam expedita fugiat soluta in commodi sequi, ratione ipsum laborum nesciunt, eum aliquid rerum distinctio iusto, delectus illum quo perferendis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo tempora facilis voluptates velit aliquam veniam sapiente, in laborum numquam aspernatur eaque autem! Temporibus accusantium ipsam dolorem, porro error enim provident.</p>
+               <br>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, aliquid debitis. Eaque culpa alias, temporibus sunt dignissimos, quam porro aperiam earum laboriosam autem quidem quibusdam a minus ducimus, ut voluptates. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil, officiis nobis delectus dolores quas accusamus omnis porro earum? Quae aliquam ducimus a rerum dolores corporis laudantium perspiciatis alias voluptatum laborum.</p>
+               <br>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus unde magnam fugiat facere, laudantium adipisci illo possimus quisquam illum id. Qui deleniti perferendis ducimus doloribus cumque eaque in? Nulla, iure? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta suscipit dolorem error voluptatibus ipsa dolore nisi alias, impedit eos architecto perspiciatis tenetur temporibus fuga debitis qui? Dicta doloribus minima reprehenderit!</p>
+
+               <div class="comment-box">
+                <h3>Leave a comment</h3>
+                <form class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="email" placeholder="Enter Email">
+                    <textarea rows="5" placeholder="Your comment"></textarea>
+                    <button type="submit" class="visit-button2">POST COMMENT</button>
+                </form>
+               </div>
+
+
+        </div>
+        <div class="blog-right">
+              <h3>Post Category</h3>
+              <div>
+                <span>Business Analytics</span>
+                <span>21</span>
+              </div>
+              <div>
+                <span>Data Science</span>
+                <span>28</span>
+              </div>
+              <div>
+                <span>Machine Learning</span>
+                <span>15</span>
+              </div>
+              <div>
+                <span>Computer Science</span>
+                <span>34</span>
+              </div>
+               <div>
+                <span>AutoCad</span>
+                <span>42</span>
+              </div>
+               <div>
+                <span>Journalism</span>
+                <span>22</span>
+              </div>
+               <div>
+                <span>Commerce</span>
+                <span>30</span>
+              </div>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!---      footer   -->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>We are a premier institution dedicated to academic excellence, innovative research, and fostering a diverse, inclusive community. Our mission is to empower the next generation of leaders and thinkers through world-class education and hands-on learning experiences</p>
+
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+
+    </div>
+
+</section>
+
+<!----- Javascript for toggle memu----> 
+    <script>
+
+      var navLinks = document.getElementById("navLinks")
+
+      function showmenu(){
+        navLinks.style.right = "0";
+      }
+
+     function hidemenu(){
+        navLinks.style.right = "-200px";
+      }
+
+    </script>
+    
+</body>
+</html>
